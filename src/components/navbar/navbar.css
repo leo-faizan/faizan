@@ -1,0 +1,31 @@
+.logo {
+    width: 15%;
+}
+
+.outer {
+    width: auto;
+}
+
+.dark {
+    width: 3%;
+    cursor: pointer;
+}
+
+.nav {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.2em;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 45%;
+    }
+
+    .dark {
+        width: 9%;
+    }
+
+}

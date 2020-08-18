@@ -1,0 +1,104 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+.second {
+    border-top: 2px solid rgb(196, 196, 196);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.bgimg {
+    width: 40%;
+    transition: 0.15s ease-in-out;
+}
+
+.bgimg:hover {
+    width: 41%;
+}
+
+.projects {
+    font-family: monospace;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+
+.link {
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    transition: 0.1s ease-in-out;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+.link .img {
+    padding-right: 0.4em;
+}
+
+
+.link:hover {
+    background-color: black;
+    fill: rgb(255, 255, 255);
+    color: white;
+}
+
+.list li {
+    padding: 0.5em;
+    transition: 0.1s ease;
+}
+
+.list li:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 480px) {
+    .projects {
+        font-family: monospace;
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+
+    .list {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (max-height: 740px) {
+    .list {
+        font-size: 0.7em;
+    }
+
+    .list li {
+        padding: 0.4em;
+    }
+
+    .bgimg {
+        width: 75%;
+        transition: 0.15s ease-in-out;
+    }
+
+    .well {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .projects {
+        font-family: monospace;
+        font-size: 3em;
+        margin-bottom: 0;
+        margin-top: 0.3em;
+    }
+
+    .second p {
+        margin-top: 0;
+    }
+}

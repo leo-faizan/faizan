@@ -1,0 +1,68 @@
+.hola h1 {
+  font-size: 1200%;
+}
+
+.hola {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+}
+
+.hey {
+  text-align: center;
+  position: relative;
+  top: -5em;
+  font-size: 1em;
+  padding: 3em;
+  padding-top: 0;
+  padding-bottom: 0px;
+}
+
+.info {
+  position: relative;
+  top: 10em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .hola h1 {
+    font-size: 900%;
+  }
+
+  .info {
+    text-align: center;
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-height: 740px) {
+  .hola h1 {
+    font-size: 700%;
+  }
+
+  .info {
+    text-align: center;
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hola {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 14em;
+  }
+}
