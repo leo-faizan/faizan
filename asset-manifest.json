@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/faizan/static/css/main.ce5a91e6.chunk.css",
+    "main.js": "/faizan/static/js/main.876e2706.chunk.js",
+    "main.js.map": "/faizan/static/js/main.876e2706.chunk.js.map",
+    "runtime-main.js": "/faizan/static/js/runtime-main.30a8b810.js",
+    "runtime-main.js.map": "/faizan/static/js/runtime-main.30a8b810.js.map",
+    "static/js/2.f7f9e211.chunk.js": "/faizan/static/js/2.f7f9e211.chunk.js",
+    "static/js/2.f7f9e211.chunk.js.map": "/faizan/static/js/2.f7f9e211.chunk.js.map",
+    "index.html": "/faizan/index.html",
+    "precache-manifest.0966c85916e474443a809a52ef34857e.js": "/faizan/precache-manifest.0966c85916e474443a809a52ef34857e.js",
+    "service-worker.js": "/faizan/service-worker.js",
+    "static/css/main.ce5a91e6.chunk.css.map": "/faizan/static/css/main.ce5a91e6.chunk.css.map",
+    "static/js/2.f7f9e211.chunk.js.LICENSE.txt": "/faizan/static/js/2.f7f9e211.chunk.js.LICENSE.txt",
+    "static/media/bgImg.jpg": "/faizan/static/media/bgImg.6696d7e1.jpg",
+    "static/media/dark.png": "/faizan/static/media/dark.307871b8.png",
+    "static/media/logo.svg": "/faizan/static/media/logo.be8c9204.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30a8b810.js",
+    "static/js/2.f7f9e211.chunk.js",
+    "static/css/main.ce5a91e6.chunk.css",
+    "static/js/main.876e2706.chunk.js"
+  ]
+}
