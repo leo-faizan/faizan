@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 
-const About = () => {
+const About = (props) => {
   return (
     <div className="about">
       <h1>ABOUT</h1>
